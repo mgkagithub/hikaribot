@@ -5,6 +5,7 @@ load_dotenv()
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 bot = hikari.GatewayBot(token = TOKEN)
+
 bot.run(
     asyncio_debug=True,             # enable asyncio debug to detect blocking and slow code.
 
