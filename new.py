@@ -1,0 +1,2 @@
+print("smng")
+print("alr")
